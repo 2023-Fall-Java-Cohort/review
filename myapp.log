@@ -1,0 +1,327 @@
+2023-11-30T11:00:20.272-05:00  INFO 7064 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 7064 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:00:20.282-05:00  INFO 7064 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:00:20.500-05:00  INFO 7064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30T11:00:20.502-05:00  INFO 7064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30T11:00:23.070-05:00  INFO 7064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:00:23.122-05:00  INFO 7064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:00:24.902-05:00  INFO 7064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:00:24.930-05:00  INFO 7064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:00:24.931-05:00  INFO 7064 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:00:25.142-05:00  INFO 7064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:00:25.145-05:00  INFO 7064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4639 ms
+2023-11-30T11:00:25.265-05:00  INFO 7064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30T11:00:25.780-05:00  INFO 7064 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:00:25.784-05:00  INFO 7064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30T11:00:25.818-05:00  INFO 7064 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:00:26.295-05:00  INFO 7064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:00:26.512-05:00  INFO 7064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30T11:00:26.670-05:00  INFO 7064 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:00:27.524-05:00  INFO 7064 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:00:27.690-05:00  WARN 7064 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:00:28.403-05:00  INFO 7064 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:00:28.412-05:00  INFO 7064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:00:28.598-05:00  WARN 7064 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:00:29.562-05:00  WARN 7064 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:00:29.920-05:00  INFO 7064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:00:30.062-05:00  INFO 7064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:00:30.097-05:00  INFO 7064 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 10.893 seconds (process running for 12.001)
+2023-11-30T11:06:08.275-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:06:08.286-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:06:08.498-05:00  INFO 14668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30T11:06:08.499-05:00  INFO 14668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30T11:06:11.459-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:06:11.555-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:06:13.879-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:06:13.912-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:06:13.916-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:06:14.085-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:06:14.087-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5585 ms
+2023-11-30T11:06:14.196-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30T11:06:14.667-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:06:14.671-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30T11:06:14.695-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:06:15.062-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:06:15.275-05:00  INFO 14668 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30T11:06:15.399-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:06:16.056-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:06:16.193-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:06:16.895-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:06:16.912-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:06:17.071-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:06:17.809-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:06:18.126-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:06:18.238-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:06:18.264-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 12.153 seconds (process running for 13.509)
+2023-11-30T11:07:13.396-05:00  INFO 14668 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30T11:07:13.397-05:00  INFO 14668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-30T11:07:13.401-05:00  INFO 14668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-30T11:29:01.211-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-11-30T11:29:01.293-05:00  INFO 14668 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:01.347-05:00  WARN 14668 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:01.351-05:00  INFO 14668 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-30T11:29:01.363-05:00  INFO 14668 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-30T11:29:01.621-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:01.623-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:02.810-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:02.844-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:03.193-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:03.207-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:03.213-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:03.268-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:03.273-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1641 ms
+2023-11-30T11:29:03.318-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-11-30T11:29:03.328-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:03.329-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-11-30T11:29:03.332-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:03.383-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:03.395-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:03.406-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:03.411-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:03.434-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:03.437-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:03.489-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:03.698-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:03.900-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:03.919-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:03.927-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 2.407 seconds (process running for 1379.171)
+2023-11-30T11:29:03.933-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:29:05.323-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30T11:29:05.350-05:00  INFO 14668 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:05.353-05:00  WARN 14668 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:05.355-05:00  INFO 14668 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-11-30T11:29:05.360-05:00  INFO 14668 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-11-30T11:29:05.609-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:05.620-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:06.439-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:06.446-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:06.809-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:06.814-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:06.818-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:06.855-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:06.866-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
+2023-11-30T11:29:06.911-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-11-30T11:29:06.923-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:06.925-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-11-30T11:29:06.933-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:07.017-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:07.031-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:07.039-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:07.043-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:07.083-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:07.089-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:07.145-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:07.335-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:07.513-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:07.543-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:07.554-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 2.054 seconds (process running for 1382.798)
+2023-11-30T11:29:07.562-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:29:08.945-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30T11:29:08.982-05:00  INFO 14668 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:08.986-05:00  WARN 14668 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:08.991-05:00  INFO 14668 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-11-30T11:29:08.998-05:00  INFO 14668 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-11-30T11:29:09.435-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:09.458-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:10.388-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:10.395-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:10.702-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:10.709-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:10.711-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:10.822-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:10.825-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1314 ms
+2023-11-30T11:29:10.865-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-11-30T11:29:10.903-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:10.911-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-11-30T11:29:10.915-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:11.009-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:11.019-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:11.037-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:11.045-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:11.067-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:11.140-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:11.260-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:11.481-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:11.661-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:11.729-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:11.740-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 2.618 seconds (process running for 1386.984)
+2023-11-30T11:29:11.750-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:29:14.156-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30T11:29:14.200-05:00  INFO 14668 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:14.207-05:00  WARN 14668 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:14.215-05:00  INFO 14668 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-11-30T11:29:14.229-05:00  INFO 14668 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-11-30T11:29:14.596-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:14.599-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:15.532-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:15.542-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:15.948-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:15.952-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:15.954-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:16.026-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:16.034-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+2023-11-30T11:29:16.083-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-11-30T11:29:16.092-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:16.096-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-11-30T11:29:16.098-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:16.194-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:16.220-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:16.242-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:16.260-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:16.292-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:16.301-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:16.389-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:16.615-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:16.718-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:16.749-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:16.769-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 2.374 seconds (process running for 1392.011)
+2023-11-30T11:29:16.786-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:29:18.134-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30T11:29:18.163-05:00  INFO 14668 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:18.166-05:00  WARN 14668 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:18.169-05:00  INFO 14668 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-11-30T11:29:18.171-05:00  INFO 14668 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-11-30T11:29:18.353-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:18.355-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:18.971-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:19.018-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:19.475-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:19.495-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:19.511-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:19.589-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:19.592-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1224 ms
+2023-11-30T11:29:19.637-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-11-30T11:29:19.668-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:19.690-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-11-30T11:29:19.696-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:19.789-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:19.798-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:19.815-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:19.827-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:19.842-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:19.843-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:19.921-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:20.166-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:20.406-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:20.432-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:20.443-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 2.143 seconds (process running for 1395.687)
+2023-11-30T11:29:20.448-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:29:21.818-05:00  INFO 14668 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30T11:29:21.846-05:00  INFO 14668 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:21.850-05:00  WARN 14668 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-11-30T11:29:21.854-05:00  INFO 14668 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-11-30T11:29:21.860-05:00  INFO 14668 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-11-30T11:29:22.060-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 14668 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:29:22.064-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:29:22.514-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:29:22.519-05:00  INFO 14668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:29:22.779-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:29:22.784-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:29:22.802-05:00  INFO 14668 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:29:22.844-05:00  INFO 14668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:29:22.846-05:00  INFO 14668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 776 ms
+2023-11-30T11:29:22.872-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-11-30T11:29:22.882-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:29:22.883-05:00  INFO 14668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-11-30T11:29:22.885-05:00  INFO 14668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:29:22.934-05:00  INFO 14668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:29:22.956-05:00  INFO 14668 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:29:22.975-05:00  INFO 14668 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:29:22.983-05:00  WARN 14668 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:29:23.016-05:00  INFO 14668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:29:23.019-05:00  INFO 14668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:29:23.119-05:00  WARN 14668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:29:23.445-05:00  WARN 14668 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:29:23.680-05:00  INFO 14668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:29:23.722-05:00  INFO 14668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:29:23.733-05:00  INFO 14668 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 1.748 seconds (process running for 1398.977)
+2023-11-30T11:29:23.744-05:00  INFO 14668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-30T11:33:12.502-05:00  INFO 20840 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 20840 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:33:12.510-05:00  INFO 20840 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:33:12.695-05:00  INFO 20840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30T11:33:12.697-05:00  INFO 20840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30T11:33:15.366-05:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:33:15.449-05:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:33:18.361-05:00  INFO 20840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:33:18.400-05:00  INFO 20840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:33:18.403-05:00  INFO 20840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:33:18.600-05:00  INFO 20840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:33:18.672-05:00  INFO 20840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5972 ms
+2023-11-30T11:33:18.800-05:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30T11:33:19.470-05:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:33:19.479-05:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30T11:33:19.511-05:00  INFO 20840 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:33:19.994-05:00  INFO 20840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:33:20.254-05:00  INFO 20840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30T11:33:20.415-05:00  INFO 20840 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:33:21.051-05:00  INFO 20840 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:33:21.200-05:00  WARN 20840 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:33:21.907-05:00  INFO 20840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:33:21.913-05:00  INFO 20840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:33:22.098-05:00  WARN 20840 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:33:23.058-05:00  WARN 20840 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:33:23.454-05:00  INFO 20840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:33:23.580-05:00  INFO 20840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:33:23.608-05:00  INFO 20840 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 12.219 seconds (process running for 13.486)
+2023-11-30T11:33:47.673-05:00  INFO 20840 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30T11:33:47.674-05:00  INFO 20840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-30T11:33:47.678-05:00  INFO 20840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-30T11:37:48.270-05:00  INFO 26220 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 26220 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:37:48.279-05:00  INFO 26220 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:37:48.495-05:00  INFO 26220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30T11:37:48.497-05:00  INFO 26220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30T11:37:50.875-05:00  INFO 26220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:37:50.954-05:00  INFO 26220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JPA repository interfaces.
+2023-11-30T11:37:53.092-05:00  INFO 26220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:37:53.132-05:00  INFO 26220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:37:53.135-05:00  INFO 26220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:37:53.299-05:00  INFO 26220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:37:53.303-05:00  INFO 26220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4801 ms
+2023-11-30T11:37:53.417-05:00  INFO 26220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30T11:37:53.905-05:00  INFO 26220 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:37:53.912-05:00  INFO 26220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30T11:37:53.944-05:00  INFO 26220 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:37:54.429-05:00  INFO 26220 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:37:54.687-05:00  INFO 26220 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30T11:37:54.848-05:00  INFO 26220 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:37:55.759-05:00  INFO 26220 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:37:55.949-05:00  WARN 26220 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:37:56.723-05:00  INFO 26220 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:37:56.736-05:00  INFO 26220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:37:56.899-05:00  WARN 26220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:37:57.846-05:00  WARN 26220 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:37:58.300-05:00  INFO 26220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:37:58.435-05:00  INFO 26220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:37:58.464-05:00  INFO 26220 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 11.42 seconds (process running for 12.496)
+2023-11-30T11:38:08.559-05:00  INFO 26220 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30T11:38:08.563-05:00  INFO 26220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-30T11:38:08.578-05:00  INFO 26220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2023-11-30T11:55:26.283-05:00  INFO 9264 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Starting ReviewApplication using Java 17.0.6 with PID 9264 (C:\Users\John\WCCIClass\ClassWork\Class\review\target\classes started by John in C:\Users\John\WCCIClass\ClassWork\Class\review)
+2023-11-30T11:55:26.302-05:00  INFO 9264 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-30T11:55:26.476-05:00  INFO 9264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30T11:55:26.479-05:00  INFO 9264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30T11:55:28.617-05:00  INFO 9264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30T11:55:28.833-05:00  INFO 9264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 1 JPA repository interface.
+2023-11-30T11:55:31.471-05:00  INFO 9264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-11-30T11:55:31.532-05:00  INFO 9264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30T11:55:31.536-05:00  INFO 9264 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-11-30T11:55:31.782-05:00  INFO 9264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30T11:55:31.788-05:00  INFO 9264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5301 ms
+2023-11-30T11:55:31.925-05:00  INFO 9264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30T11:55:32.493-05:00  INFO 9264 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-30T11:55:32.499-05:00  INFO 9264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30T11:55:32.555-05:00  INFO 9264 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-30T11:55:33.131-05:00  INFO 9264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30T11:55:33.418-05:00  INFO 9264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30T11:55:33.550-05:00  INFO 9264 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-30T11:55:34.450-05:00  INFO 9264 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30T11:55:34.600-05:00  WARN 9264 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-30T11:55:36.738-05:00  INFO 9264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30T11:55:36.857-05:00  INFO 9264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30T11:55:37.900-05:00  WARN 9264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30T11:55:39.032-05:00  WARN 9264 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-30T11:55:39.497-05:00  INFO 9264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-30T11:55:39.618-05:00  INFO 9264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-11-30T11:55:39.654-05:00  INFO 9264 --- [restartedMain] o.wecancodeit.review.ReviewApplication   : Started ReviewApplication in 14.29 seconds (process running for 15.166)
+2023-11-30T11:56:08.138-05:00  INFO 9264 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30T11:56:08.140-05:00  INFO 9264 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-30T11:56:08.148-05:00  INFO 9264 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
