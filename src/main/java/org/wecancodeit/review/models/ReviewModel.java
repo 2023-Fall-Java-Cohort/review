@@ -7,16 +7,18 @@ public class ReviewModel {
     @Id
     @GeneratedValue
     private long id;
-
-    private String reviewedBy;
+    
     private int rating;
     
+    @ManyToOne
+    private UserModel user;
+
     public ReviewModel() {
     }
 
-    public ReviewModel( String reviewedBy, int rating) {
-        this.reviewedBy = reviewedBy;
+    public ReviewModel( UserModel reviewed, int rating) {
         this.rating = rating;
+        this.user = reviewed;
     }
 
     
@@ -28,12 +30,21 @@ public class ReviewModel {
         return id;
     }
 
+
     public String getReviewedBy() {
-        return reviewedBy;
+        if(user != null){
+            return user.getFirstName();
+        }
+        return null;
     }
 
     public int getRating() {
         return rating;
+    }
+
+    @Override
+    public String toString() {
+        return "ReviewModel [id=" + id + ", reviewedBy=" + getReviewedBy() + ", rating=" + rating + "]";
     }
 
     

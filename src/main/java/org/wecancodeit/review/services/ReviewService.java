@@ -23,15 +23,21 @@ public class ReviewService {
         if (opt.isPresent()) {
             return opt.get();
         }
-         throw new NoFoundException("Review Id " + id + " was not found");
-       
+        throw new NoFoundException("Review Id " + id + " was not found");
+
     }
 
     public Iterable<ReviewModel> getReviews() {
         return reviewRepository.findAll();
     }
 
-    public ReviewModel update(ReviewModel model) {
+    public ReviewModel update(ReviewModel model) throws NoFoundException {
+        if (model.getId() != 0) {
+            Optional<ReviewModel> opt = reviewRepository.findById(model.getId());
+            if(!opt.isPresent()){
+                throw new NoFoundException("You are try to update a record that does not exist.");
+            }
+        }
         return reviewRepository.save(model);
     }
 
@@ -40,6 +46,14 @@ public class ReviewService {
         if (!opt.isPresent()) {
             throw new NoFoundException("Review Id " + id + " was not found");
         }
-       reviewRepository.deleteById(id);
+        reviewRepository.deleteById(id);
+    }
+
+     public void deleteReview(ReviewModel review) throws Exception {
+        Optional<ReviewModel> opt = reviewRepository.findById(review.getId());
+        if (!opt.isPresent()) {
+            throw new NoFoundException("Review " +review + " was not found");
+        }
+        reviewRepository.delete(review);
     }
 }
